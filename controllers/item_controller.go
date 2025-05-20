@@ -3,9 +3,9 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/Sinzxere/go-practice/config"
+	"github.com/Sinzxere/go-practice/models"
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/go-api-project/config"
-	"github.com/yourusername/go-api-project/models"
 )
 
 // GetItems godoc
