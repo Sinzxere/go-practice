@@ -6,11 +6,20 @@ import (
 	"os"
 
 	"github.com/Sinzxere/go-practice/models"
+	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
 var DB *gorm.DB
+
+func init() {
+	// โหลดไฟล์ .env
+	err := godotenv.Load()
+	if err != nil {
+		log.Println("Warning: .env file not found")
+	}
+}
 
 func ConnectDatabase() {
 	// ข้อมูลการเชื่อมต่อฐานข้อมูล
