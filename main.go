@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/yourusername/go-api-project/config"
-	"github.com/yourusername/go-api-project/routes"
+	"https://github.com/Sinzxere/go-practice/tree/main/config"
+	"https://github.com/Sinzxere/go-practice/tree/main/routes"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module go_db
+module github.com/Sinzxere/go-practice
 
 go 1.23.7
 

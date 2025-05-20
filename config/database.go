@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/yourusername/go-api-project/models"
+	"github.com/Sinzxere/go-practice/tree/main/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
