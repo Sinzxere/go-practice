@@ -57,7 +57,7 @@ func ConnectDatabase() {
 	}
 
 	// Auto Migrate โมเดล
-	db.AutoMigrate(&models.Item{})
+	db.AutoMigrate(&models.Item{}, &models.AppMigration{})
 
 	DB = db
 	fmt.Println("Database connected successfully")
